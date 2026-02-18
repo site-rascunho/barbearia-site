@@ -26,7 +26,8 @@ export const GallerySection = () => {
               alt="Interior da Barbearia JoãoS"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-background/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            {/* Texto sempre visível (removido opacity-0 e hover) */}
+            <div className="absolute inset-0 bg-gradient-to-t from-background/70 to-transparent opacity-100 flex items-end p-6">
               <p className="text-foreground font-elegant text-lg">Ambiente moderno e acolhedor</p>
             </div>
             {/* Gold border on hover */}
@@ -39,7 +40,8 @@ export const GallerySection = () => {
               alt="Cadeiras da Barbearia JoãoS"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-background/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            {/* Texto sempre visível (removido opacity-0 e hover) */}
+            <div className="absolute inset-0 bg-gradient-to-t from-background/70 to-transparent opacity-100 flex items-end p-6">
               <p className="text-foreground font-elegant text-lg">Cadeiras premium de barbeiro</p>
             </div>
             <div className="absolute inset-0 border-2 border-gold/0 group-hover:border-gold/40 rounded-lg transition-all duration-300" />

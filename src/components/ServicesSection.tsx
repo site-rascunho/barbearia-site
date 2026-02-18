@@ -1,4 +1,4 @@
-import { Scissors, Sparkles, Star, Clock } from "lucide-react";
+import { Scissors, Sparkles, User, Eye } from "lucide-react";
 
 const services = [
   {
@@ -9,7 +9,7 @@ const services = [
     duration: "45 min",
   },
   {
-    icon: Star,
+    icon: User, // Alterado de Star para User
     title: "Barba",
     description: "Modelagem e acabamento perfeito da barba com navalha e produtos premium.",
     price: "R$ 20",
@@ -23,7 +23,7 @@ const services = [
     duration: "75 min",
   },
   {
-    icon: Clock,
+    icon: Eye, // Alterado de Clock para Eye
     title: "Sobrancelha",
     description: "Design e acabamento das sobrancelhas para um visual impecável.",
     price: "R$ 10",
