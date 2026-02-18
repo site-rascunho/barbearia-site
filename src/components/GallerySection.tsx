@@ -1,5 +1,5 @@
-import barbershop1 from "@/assets/barbershop-1.jpg";
-import barbershop2 from "@/assets/barbershop-2.jpg";
+import barbershop1 from "@/assets/barbershop-1.png";
+import barbershop2 from "@/assets/barbershop-2.png";
 
 export const GallerySection = () => {
   return (
