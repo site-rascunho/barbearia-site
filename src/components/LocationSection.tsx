@@ -93,7 +93,7 @@ export const LocationSection = () => {
               <p className="font-display text-foreground text-lg mb-2">Barbearia JoãoS</p>
               <p className="text-muted-foreground text-sm mb-6">Adicione seu endereço para aparecer o mapa</p>
               <a
-                href="https://maps.google.com"
+                href="https://maps.app.goo.gl/PbjPXn63VbRdvwig8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-gold text-sm hover:text-gold-light transition-colors border border-gold/30 rounded px-4 py-2 hover:border-gold"
