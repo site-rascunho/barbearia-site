@@ -1,10 +1,9 @@
 import { Scissors } from "lucide-react";
-// IMPORTANTE: Adicione as imagens na pasta assets ou ajuste os caminhos abaixo
-import beardImg from "@/assets/service-beard.png"; // Exemplo: foto para Barba
-import comboImg from "@/assets/service-combo.png"; // Exemplo: foto para Corte + Barba
-import browsImg from "@/assets/service-brows.png"; // Exemplo: foto para Sobrancelha
+// Lembre-se de garantir que essas imagens existam na pasta assets
+import beardImg from "@/assets/service-beard.png";
+import comboImg from "@/assets/service-combo.png";
+import browsImg from "@/assets/service-brows.png";
 
-// Interface para tipar corretamente os serviços (pode ser imagem ou ícone)
 type ServiceItem = {
   title: string;
   description: string;
@@ -86,7 +85,8 @@ export const ServicesSection = () => {
                     <img 
                       src={service.image} 
                       alt={service.title} 
-                      className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
+                      // AQUI ESTÁ A MUDANÇA: p-3 para reduzir o tamanho e object-contain para não cortar
+                      className="w-full h-full object-contain p-3 opacity-90 group-hover:opacity-100 transition-opacity"
                     />
                   )}
                 </div>
