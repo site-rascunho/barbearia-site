@@ -17,6 +17,12 @@ export const Navbar = () => {
     { label: "Localização", href: "#location" },
   ];
 
+  const displayName =
+    user?.user_metadata?.full_name ||
+    user?.phone ||
+    user?.email ||
+    "Usuário";
+
   return (
     <>
       <nav className="fixed top-0 left-0 right-0 z-50 glass border-b border-border/40">
@@ -46,7 +52,7 @@ export const Navbar = () => {
                 <div className="flex items-center gap-3">
                   <div className="flex items-center gap-2 text-sm text-muted-foreground">
                     <User size={16} className="text-gold" />
-                    <span className="truncate max-w-[140px]">{user.email}</span>
+                    <span className="truncate max-w-[160px]">{displayName}</span>
                   </div>
                   <Button
                     onClick={signOut}
