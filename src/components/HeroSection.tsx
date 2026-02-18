@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { AuthModal } from "@/components/AuthModal";
 import { useAuth } from "@/hooks/useAuth";
 import { Scissors, ChevronDown } from "lucide-react";
-import heroImg from "@/assets/barbershop-2.png";
+import heroImg from "@/assets/barbershop-2-hero.png";
 import logoImg from "@/assets/logo-texto.png";
 
 export const HeroSection = () => {
